@@ -44,7 +44,7 @@ export default function Home() {
             </h1>
 
             <div className="flex flex-wrap gap-2 animate-fade-up delay-300">
-              {["Figma", "Next.js", "CSS Tailwind"].map((skill) => (
+              {["Figma", "Next.js", "Tailwind CSS"].map((skill) => (
                 <span
                   key={skill}
                   className="px-3.5 py-1 text-xs font-medium rounded-full border border-neutral-200 text-neutral-600 bg-white"
@@ -61,7 +61,7 @@ export default function Home() {
       <section className="px-6 pb-24 mb-12">
         <div className="max-w-5xl mx-auto">
           <h2 className="text-2xl font-semibold text-center mb-12 text-neutral-900 animate-fade-up delay-300">
-            Featured Work
+            Case Studies
           </h2>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
@@ -105,10 +105,7 @@ export default function Home() {
 
           <div className="animate-fade-up delay-500">
             <p className="text-neutral-600 leading-relaxed mb-8">
-              I'm a Product Designer and Frontend Developer with 5+ years of
-              experience designing and building digital products. I enjoy turning
-              complex problems into simple, intuitive, and visually polished
-              experiences.
+              Product Designer and Frontend Developer with 5+ years of experience. I design and build digital products end-to-end — combining strong UX thinking with modern frontend development in Next.js and Tailwind CSS.
             </p>
 
             <div className="grid grid-cols-2 gap-x-8 gap-y-3 text-sm">
@@ -121,7 +118,7 @@ export default function Home() {
               <div className="space-y-2">
                 <p className="text-neutral-900 font-medium">Next.js</p>
                 <p className="text-neutral-900 font-medium">React.js</p>
-                <p className="text-neutral-900 font-medium">CSS Tailwind</p>
+                <p className="text-neutral-900 font-medium">Tailwind CSS</p>
                 <p className="text-neutral-900 font-medium">Supabase</p>
               </div>
             </div>
