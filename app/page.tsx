@@ -1,13 +1,12 @@
 import Image from "next/image";
 import Link from "next/link";
-import Navbar from "@/app/Components/navbar";
 
 const projects = [
   {
     id: 1,
     title: "AI Job Board",
     tags: ["Product Design", "Development"],
-    image: "/AI Job Board.png", // replace with your images
+    image: "/AI Job Board.png",
     link: "/projects/ai-job-board",
   },
   {
@@ -22,13 +21,13 @@ const projects = [
 export default function Home() {
   return (
     <main className="min-h-screen bg-white overflow-hidden">
-      {/* Header */}
+      
 
       {/* Hero Section */}
       <section className="pt-20 pb-40 px-6">
         <div className="max-w-3xl mx-auto flex flex-col sm:flex-row items-center gap-8 justify-center">
           <div className="w-36 h-36 sm:w-40 sm:h-40 rounded-[32px] overflow-hidden bg-neutral-100 shrink-0 animate-scale-in delay-100">
-            {/* Replace with your actual image */}
+            
             <Image
               src="/Anas product Designer.png"
               alt="Muhammad Anas"
